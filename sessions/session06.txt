@@ -1,0 +1,16 @@
+Virtual DOM, fibre and reconcillation
+
+Session 07 :
+tailwind CSS and Props
+
+install taliwindCSS (in vite) : https://tailwindcss.com/docs/guides/vite
+install VS Code Extension "IntelliSense"
+use tailwindCSS properties (bg-green-400, text-black, p-4, mb-4, rounded-xl)
+use https://www.devui.io/components/cards to create simple card component.
+
+Props : props are used to pass values
+- How Props are used ?
+- props are passed with cards only as a key-value pair.
+- if you want to pass Object or Array as a property(prop) in any card, then you need to define tht Object/Array in the App.jsx and use that Object/Array as a variable in key-value pair in card.
+- if you want to reflect that value in the UI, then in the card you can use that property(props) by passing that prop's key into (with) card definition and then use that variable in the content.
+- you can pass default value also into card definition, so, that if one card used some prop and another card doesn't and we shown that value in the UI, then in second card it's not come as empty value.
